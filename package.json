@@ -1,0 +1,14 @@
+{
+  "name": "node_cpp_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run install; node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Mahdi Imani",
+  "license": "ISC",
+  "gypfile": true
+}
